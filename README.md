@@ -1,7 +1,7 @@
 # MQTT Websocket Dashboard 
 
 I modified this dashboard and adding some code . this is not my own dashboard .credit the orginal uploader.
-I searched for a opportunity to receive `mqtt` message from my `ESP8266 Module` and display it live in a Browser. I found a tutorial from [Robert Hekkers](http://blog.hekkers.net/2012/10/13/realtime-data-with-mqtt-node-js-mqtt-js-and-socket-io/). But the example didn't work for me.
+I searched for a opportunity to receive `mqtt` message from my `ESP8266 Module` and display it live in a Browser. I found a tutorial from element87 this is work for me.
 
 After some hours spent on studying `node.js`, `Javascript` and `Socket.io` - i ended up with this nice looking Dashboard.
 
@@ -16,14 +16,15 @@ Basically it's the same concept of code with some enhancements.
 		brew install nodejs
 
 
-2. Clone the Repo
+2. Clone the Repo from the orginal uploader
 
 		git clone https://github.com/eLement87/mqtt-websocket-dashboard.git
 
-3. Download the Dependencies
+3. Download the Dependencies i add someother features ui
 
 		npm install mqtt
 		npm install socket.io
+		npm install guage-chart ' i add this chart '
 		
 4. Start the Server
 
@@ -52,11 +53,12 @@ I used ESP32 on my ESP-Module that publish's the Data to my Raspberry and Mosqui
 
 ## Credits
 
-- Robert Hekkers - Realtime data with MQTT, Node.js, MQTTClient.js and Socket.IO - http://blog.hekkers.net/2012/10/13/realtime-data-with-mqtt-node-js-mqtt-js-and-socket-io/
+- Robert Hekkers - Realtime data with MQTT, Node.js, MQTTClient.js and Socket.IO - http://blog.hekkers.net/2012/10/13/realtime-data-with-mqtt-node-js-mqtt-js-and-socket-io/ // this tutorial is no longer exit
 - node.js - http://nodejs.org
 - socket.io - http://socket.io/
 - jquery - https://jquery.com
 - Sematic UI - https://github.com/Semantic-Org/Semantic-UI
 - Responsive Grid System  - http://responsivegridsystem.com
+- Gauge chart - http://npmgaugechrt
 - Gifrocket - http://www.gifrocket.com
 - <div>Icons made from <a href="http://www.flaticon.com" title="Flaticon">www.flaticon.com</a> is licensed by <a href="http://creativecommons.org/licenses/by/3.0/" title="Creative Commons BY 3.0" target="_blank">CC 3.0 BY</a></div>
