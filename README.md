@@ -36,7 +36,7 @@ Basically it's the same concept of code with some enhancements.
 
 ## How
 
-I used [ESPeasy](http://esp8266.nu) on my ESP-Module that publish's the Data to my Raspberry and Mosquitto.
+I used ESP32 on my ESP-Module that publish's the Data to my Raspberry and Mosquitto.
 
 
 ## To Do...
