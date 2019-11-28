@@ -1,0 +1,27 @@
+Arguments: 
+  C:\Program Files\nodejs\node.exe C:\Program Files\Yarn\bin\yarn.js add mqtt
+
+PATH: 
+  C:\Windows\System32;C:\Program Files\Python37-32\Scripts;C:\Program Files\Python37-32\Tools\scripts;C:\wamp\bin\php\php5.6.40;C:\ProgramData\ComposerSetup\bin;C:\Program Files\nodejs\;C:\Program Files\Yarn\bin\;C:\Program Files\Scripts\;C:\Program Files\;C:\Users\Panasoni\AppData\Roaming\Composer\vendor\bin;C:\Users\Panasoni\AppData\Roaming\npm;C:\Users\Panasoni\AppData\Local\Yarn\bin
+
+Yarn version: 
+  1.19.1
+
+Node version: 
+  12.13.0
+
+Platform: 
+  win32 ia32
+
+Trace: 
+  Error: getaddrinfo ENOTFOUND registry.yarnpkg.com
+      at GetAddrInfoReqWrap.onlookup [as oncomplete] (dns.js:60:26)
+
+npm manifest: 
+  No manifest
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
