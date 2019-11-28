@@ -1,6 +1,6 @@
 # MQTT Websocket Dashboard 
 
-
+I modified this dashboard and adding some code . this is not my own dashboard .credit the orginal uploader.
 I searched for a opportunity to receive `mqtt` message from my `ESP8266 Module` and display it live in a Browser. I found a tutorial from [Robert Hekkers](http://blog.hekkers.net/2012/10/13/realtime-data-with-mqtt-node-js-mqtt-js-and-socket-io/). But the example didn't work for me.
 
 After some hours spent on studying `node.js`, `Javascript` and `Socket.io` - i ended up with this nice looking Dashboard.
